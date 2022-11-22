@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">crudRecycle</string>
+    <string name="Tunis">
+        Tunis
+    </string>
+    <string name="England">
+    England
+        </string>
+    <string name="France">
+        France
+    </string>
+    <string name="Germany">
+    Germany
+    </string>
+    <string name="Italy">
+       Italie
+    </string>
+    <string name="Ruissa">
+       Ruissa
+    </string>
+    <string name="Turky">
+        Turky
+    </string>
+    <string name="Ukraine">
+       Ukraine
+    </string>
+    <string name="Brazil">
+        Brazil
+    </string>
+
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/title_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="30dp"
+        android:src="@drawable/brazil"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/tv_Heading"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="80dp"
+        android:text="Brazil"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/title_image"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="6dp"
+        android:background="@color/teal_200"
+        app:layout_constraintTop_toBottomOf="@+id/title_image"
+        tools:ignore="MissingConstraints,UnknownId"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.763" />
+
+</android.support.constraint.ConstraintLayout>
